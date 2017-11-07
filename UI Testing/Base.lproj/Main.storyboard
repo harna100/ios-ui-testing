@@ -55,23 +55,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NavProfileTableViewCell" rowHeight="151" id="keC-10-if9" customClass="NavProfileTableViewCell" customModule="UI_Testing" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="320" height="151"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NavProfileTableViewCell" rowHeight="200" id="keC-10-if9" customClass="NavProfileTableViewCell" customModule="UI_Testing" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="320" height="200"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="keC-10-if9" id="9k2-6K-z8C">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="150.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="199.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tlr-ZH-2xp">
-                                            <rect key="frame" x="5" y="35.5" width="215" height="80"/>
+                                            <rect key="frame" x="10" y="10" width="215" height="179.5"/>
                                             <color key="backgroundColor" red="1" green="0.079394028178769616" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="80" id="8zT-zj-IlK"/>
-                                            </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GmE-lX-mG5">
-                                            <rect key="frame" x="227" y="65" width="80" height="20.5"/>
+                                            <rect key="frame" x="235" y="89.5" width="80" height="20.5"/>
                                             <constraints>
+                                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="80" id="Lqf-EA-9tL"/>
                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="O3U-bd-Qgx"/>
                                                 <constraint firstAttribute="width" constant="80" id="TTd-8m-UdW"/>
                                             </constraints>
@@ -81,16 +79,17 @@
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="tlr-ZH-2xp" firstAttribute="leading" secondItem="9k2-6K-z8C" secondAttribute="leading" constant="5" id="Cmp-xG-Wfh"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="GmE-lX-mG5" secondAttribute="trailing" constant="5" id="cUm-e6-QSh"/>
-                                        <constraint firstItem="tlr-ZH-2xp" firstAttribute="centerY" secondItem="9k2-6K-z8C" secondAttribute="centerY" id="hi2-fN-YFf"/>
-                                        <constraint firstItem="GmE-lX-mG5" firstAttribute="leading" secondItem="tlr-ZH-2xp" secondAttribute="trailing" constant="7" id="hob-mE-K9d"/>
-                                        <constraint firstItem="GmE-lX-mG5" firstAttribute="centerY" secondItem="9k2-6K-z8C" secondAttribute="centerY" id="pgX-bP-Jbp"/>
+                                        <constraint firstItem="tlr-ZH-2xp" firstAttribute="leading" secondItem="9k2-6K-z8C" secondAttribute="leading" constant="10" id="2Cd-vQ-yHU"/>
+                                        <constraint firstAttribute="trailing" secondItem="GmE-lX-mG5" secondAttribute="trailing" constant="5" id="E7K-JM-378"/>
+                                        <constraint firstAttribute="bottom" secondItem="tlr-ZH-2xp" secondAttribute="bottom" constant="10" id="IjG-ov-9L2"/>
+                                        <constraint firstItem="tlr-ZH-2xp" firstAttribute="top" secondItem="9k2-6K-z8C" secondAttribute="top" constant="10" id="PUq-qC-NbS"/>
+                                        <constraint firstItem="GmE-lX-mG5" firstAttribute="centerY" secondItem="9k2-6K-z8C" secondAttribute="centerY" id="Svg-O1-U78"/>
+                                        <constraint firstItem="GmE-lX-mG5" firstAttribute="leading" secondItem="tlr-ZH-2xp" secondAttribute="trailing" constant="10" id="dhc-k1-4lw"/>
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NavTableViewCell" id="orF-Kx-inJ" customClass="NavTableViewCell" customModule="UI_Testing" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="179" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="228" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="orF-Kx-inJ" id="fuk-Ji-v51">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
