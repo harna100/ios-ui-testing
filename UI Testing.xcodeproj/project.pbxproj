@@ -14,6 +14,9 @@
 		DA00EC701FB21E9A00EBA676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA00EC6E1FB21E9A00EBA676 /* LaunchScreen.storyboard */; };
 		DA00EC7B1FB21E9A00EBA676 /* UI_TestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00EC7A1FB21E9A00EBA676 /* UI_TestingTests.swift */; };
 		DA00EC861FB21E9A00EBA676 /* UI_TestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00EC851FB21E9A00EBA676 /* UI_TestingUITests.swift */; };
+		DADD636E1FB2253C00F6E766 /* NavTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD636D1FB2253C00F6E766 /* NavTableViewController.swift */; };
+		DADD63701FB226FD00F6E766 /* NavTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD636F1FB226FD00F6E766 /* NavTableViewCell.swift */; };
+		DADD63721FB25F0200F6E766 /* NavProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADD63711FB25F0200F6E766 /* NavProfileTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		DA00EC811FB21E9A00EBA676 /* UI TestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI TestingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA00EC851FB21E9A00EBA676 /* UI_TestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_TestingUITests.swift; sourceTree = "<group>"; };
 		DA00EC871FB21E9A00EBA676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADD636D1FB2253C00F6E766 /* NavTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTableViewController.swift; sourceTree = "<group>"; };
+		DADD636F1FB226FD00F6E766 /* NavTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTableViewCell.swift; sourceTree = "<group>"; };
+		DADD63711FB25F0200F6E766 /* NavProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavProfileTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				DA00EC6C1FB21E9A00EBA676 /* Assets.xcassets */,
 				DA00EC6E1FB21E9A00EBA676 /* LaunchScreen.storyboard */,
 				DA00EC711FB21E9A00EBA676 /* Info.plist */,
+				DADD636D1FB2253C00F6E766 /* NavTableViewController.swift */,
+				DADD636F1FB226FD00F6E766 /* NavTableViewCell.swift */,
+				DADD63711FB25F0200F6E766 /* NavProfileTableViewCell.swift */,
 			);
 			path = "UI Testing";
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA00EC681FB21E9A00EBA676 /* ViewController.swift in Sources */,
+				DADD63701FB226FD00F6E766 /* NavTableViewCell.swift in Sources */,
 				DA00EC661FB21E9A00EBA676 /* AppDelegate.swift in Sources */,
+				DADD63721FB25F0200F6E766 /* NavProfileTableViewCell.swift in Sources */,
+				DADD636E1FB2253C00F6E766 /* NavTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
